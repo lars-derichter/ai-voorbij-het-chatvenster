@@ -53,7 +53,8 @@ liggen nog niet vast.
   studenten mee, laat AI nooit studentenwerk quoteren en blijf zelf
   verantwoordelijk. Verwijs naar het
   [AI-beleid van Thomas More](https://thomasmore365.sharepoint.com/sites/ICTS/Gedeelde%20documenten/Forms/AllItems.aspx?id=%2Fsites%2FICTS%2FGedeelde%20documenten%2F260924%2DTM%2DAD%2DFlow%2EAI%2DOD%202%2DAI%20CC%2DAI%20Beleid%2DDefinitief%20%28TM%2Dversie%29%2Epdf&parent=%2Fsites%2FICTS%2FGedeelde%20documenten);
-  vul de inhoud van dat interne document niet op basis van aannames in.
+  Raadpleeg `sources/tm-ai-beleid.md` voor de inhoud en vul die niet op basis
+  van aannames in. De pdf-versie is bedoeld voor menselijke lezers.
 - Lever documentatie als Markdown aan, tenzij een opdracht om een ander formaat
   vraagt.
 
@@ -63,6 +64,8 @@ liggen nog niet vast.
   publiek zichtbare tekst wordt geschreven.
 - `sources/workflow-ontwikkeling-cursus-pf-coursewright.md` — ruwe chronologie
   en mogelijke voorbeelden uit de ontwikkeling van de cursus en Coursewright.
+- `sources/tm-ai-beleid.md` — tekstversie van het AI-beleid van Thomas More;
+  gebruik deze versie als agent. `sources/tm-ai-beleid.pdf` is voor mensen.
 - `slides.md` — de enige actieve Slidev-presentatie; bevat momenteel nog de
   voorbeelddia’s van het Thomas More-thema.
 - `README.md` — huidige projectdocumentatie; bevat nog informatie uit het
