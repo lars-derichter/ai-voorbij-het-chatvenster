@@ -62,14 +62,16 @@ liggen nog niet vast.
 
 - `writing-style.md` — verplicht lezen vóór publiek zichtbare tekst wordt
   geschreven.
+- `sources/short-desription.md` — korte beschrijving die deelnemers bij de
+  inschrijving konden lezen.
 - `sources/workflow-ontwikkeling-cursus-pf-coursewright.md` — ruwe chronologie
   en mogelijke voorbeelden uit de ontwikkeling van de cursus en Coursewright.
 - `sources/tm-ai-beleid.md` — tekstversie van het AI-beleid van Thomas More;
   gebruik deze versie als agent. `sources/tm-ai-beleid.pdf` is voor mensen.
 - `slides.md` — de enige actieve Slidev-presentatie; bevat momenteel nog de
   voorbeelddia’s van het Thomas More-thema.
-- `README.md` — huidige projectdocumentatie; bevat nog informatie uit het
-  oorspronkelijke sjabloon en moet later een ingang voor bezoekers worden.
+- `README.md` — ingang voor bezoekers, met de presentatielink en informatie over
+  de workshop.
 - `package.json` en `.github/workflows/deploy.yml` — beschikbare commando’s,
   afhankelijkheden en publicatie-instellingen.
 

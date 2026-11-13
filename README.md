@@ -1,122 +1,47 @@
-# Slidev template
+# AI voorbij het chatvenster
 
-🔗 **Live presentation:**
-https://lars-derichter.github.io/ai-voorbij-het-chatvenster/
+Hoe kan AI je helpen bij werk dat verder gaat dan één gesprek? In deze workshop
+voor medewerkers van Thomas More verkennen we hoe je met AI en je eigen
+bestanden aan de slag kunt, bijvoorbeeld om lesmateriaal te ontwikkelen of
+terugkerende taken aan te pakken.
 
-A clean, minimal [Slidev](https://sli.dev) starter set up to deploy to GitHub
-Pages.
+**[Bekijk de presentatie](https://lars-derichter.github.io/ai-voorbij-het-chatvenster/)**
 
-## Start a new presentation from this template
+De presentatie wordt nog voorbereid. De link toont voorlopig de voorbeelddia’s
+van het thema.
 
-Clone the template **into a folder named after your presentation** — that folder
-name becomes the GitHub repo name by default — then run `install.sh`:
+## Wat verkennen we?
 
-```bash
-git clone https://github.com/lars-derichter/slidev-template.git my-presentation
-cd my-presentation
-./install.sh
-```
+- **Markdown** is een eenvoudige manier om tekst op te maken in een gewoon
+  tekstbestand. Je kunt er bijvoorbeeld lesmateriaal of instructies in bewaren.
+- In een bestand zoals `AGENTS.md` kun je afspraken voor een project vastleggen,
+  zodat je ze niet telkens opnieuw hoeft uit te leggen aan een AI-assistent.
+- Een **skill** bundelt instructies voor een bepaalde taak. Zo kun je een
+  werkwijze opnieuw gebruiken en aanpassen.
 
-The script:
+We bekijken hoe je vanuit een project met lokale bestanden kunt werken en zo
+minder hoeft te kopiëren en te plakken. Welke functies en bestanden een
+AI-toepassing ondersteunt, hangt af van de toepassing en je omgeving.
 
-- asks which theme to use (`ldr` or `tm`) and activates its starter deck as
-  `slides.md`, removing the other starter and its demo image,
-- renames the template's remote to `upstream` (so you can pull future updates),
-- creates a new GitHub repo named after the folder,
-- sets it as `origin` and pushes,
-- enables GitHub Pages (source: GitHub Actions) — or prints instructions if it
-  can't,
-- adds the live presentation URL to the top of this README,
-- runs `npm install`.
+## Zorgvuldig omgaan met AI
 
-**Prerequisite:** the [GitHub CLI](https://cli.github.com/) (`gh`), installed
-and authenticated (`gh auth login`).
+Geef geen identificerende gegevens van studenten mee, laat AI nooit
+studentenwerk quoteren en blijf zelf verantwoordelijk voor je werk en
+beslissingen. Controleer ook de resultaten kritisch. Meer afspraken vind je in
+het
+[AI-beleid van Thomas More](https://thomasmore365.sharepoint.com/sites/ICTS/Gedeelde%20documenten/Forms/AllItems.aspx?id=%2Fsites%2FICTS%2FGedeelde%20documenten%2F260924%2DTM%2DAD%2DFlow%2EAI%2DOD%202%2DAI%20CC%2DAI%20Beleid%2DDefinitief%20%28TM%2Dversie%29%2Epdf&parent=%2Fsites%2FICTS%2FGedeelde%20documenten).
 
-**Flags:**
+## Presentatie aanpassen
 
-| Flag                      | Effect                                                |
-| ------------------------- | ----------------------------------------------------- |
-| `-r`, `--repository NAME` | Repo name to create, if different from the folder.    |
-| `--public` / `--private`  | Set visibility (default: prompt; Pages needs public). |
-| `--theme <ldr\|tm>`       | Choose the starter theme (default: prompt).           |
-| `--no-install`            | Skip `npm install`.                                   |
-| `-h`, `--help`            | Show usage.                                           |
+De presentatie is gemaakt met Slidev. In de
+[Slidev-template van Lars](https://github.com/lars-derichter/slidev-template)
+vind je uitleg om zelf een presentatie te maken en te bewerken.
 
-**Pull later template updates** (theme, workflow, tooling):
+## Licentie
 
-```bash
-git fetch upstream
-git merge upstream/main
-```
-
-## Develop
-
-```bash
-npm install
-npm run dev
-```
-
-Edit [slides.md](slides.md); the browser updates on save.
-
-The repo starts with the ldr deck as `slides.md`; the tm starter lives in
-[slides-tm.md](slides-tm.md) until `install.sh` runs. Preview it with:
-
-```bash
-npx slidev slides-tm.md --open
-```
-
-## Themes
-
-Two custom themes are installed as pinned Git dependencies:
-
-| Theme       | Package            | Repo                                                                   | Frontmatter  |
-| ----------- | ------------------ | ---------------------------------------------------------------------- | ------------ |
-| Personal    | `slidev-theme-ldr` | [ldr-slidev-theme](https://github.com/lars-derichter/ldr-slidev-theme) | `theme: ldr` |
-| Thomas More | `slidev-theme-tm`  | [tm-slidev-theme](https://github.com/lars-derichter/tm-slidev-theme)   | `theme: tm`  |
-
-`install.sh` asks which one to use (or takes `--theme`) and activates that
-theme's starter deck as `slides.md`, removing the other starter and its demo
-image. Both packages stay in [package.json](package.json) — the unused
-dependency is harmless.
-
-Without `install.sh`, switch to the tm starter manually:
-
-```bash
-mv slides-tm.md slides.md   # optionally: rm public/forest.jpg
-```
-
-**Updating a theme.** The dependencies are pinned to tags (`#v1.1.0` /
-`#v1.0.0`), so `npm update` will not move them. To pull in theme changes, tag a
-new release in the theme repo (`git tag v1.2.0 && git push --tags`), bump the
-pin in [package.json](package.json), and run `npm install`.
-
-**Switching an existing deck's theme** takes more than editing `theme:` in the
-frontmatter: the layout names differ (`two-cols-ldr` vs `two-cols-tm`; only tm
-has the `toc` layout with its `hideInToc`/`level` keys and the
-`color: white | orange | navy` colorways), and so do the accent classes (ldr's
-`.sage`/`.maple` vs tm's `.teal`/`.green`/`.navy`). Use each theme's example
-deck as the reference.
-
-## Build & export
-
-```bash
-npm run build    # static site into dist/
-npm run export   # PDF export
-```
-
-## Deploy to GitHub Pages
-
-The workflow in [.github/workflows/deploy.yml](.github/workflows/deploy.yml)
-builds and deploys on every push to `main`. Enable it once:
-
-1. Push this repo to GitHub.
-2. Go to **Settings → Pages → Build and deployment** and set **Source** to
-   **GitHub Actions**.
-3. Push to `main` (or run the workflow manually under the **Actions** tab).
-
-The slides land at `https://<user>.github.io/<repo>/`. The `--base` flag in the
-workflow uses the repository name automatically, so no extra config is needed.
-
-Made with [Slidev](https://sli.dev).
-
-&copy; Lars De Richter
+Dit materiaal is beschikbaar onder de
+[Creative Commons Naamsvermelding-NietCommercieel-GelijkDelen 4.0 Internationaal-licentie (CC BY-NC-SA 4.0)](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.nl).
+Je mag het delen en aanpassen voor niet-commerciële doeleinden, met
+naamsvermelding. Als je het aanpast en verspreidt, gebruik je dezelfde licentie
+en geef je aan wat je hebt gewijzigd. De volledige licentietekst staat in
+[LICENSE](LICENSE).
