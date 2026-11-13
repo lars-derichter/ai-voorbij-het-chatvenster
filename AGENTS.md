@@ -60,8 +60,8 @@ liggen nog niet vast.
 
 ## Relevante bestanden
 
-- `writing-style.md` — de nog aan te leveren stijlgids; verplicht lezen vóór
-  publiek zichtbare tekst wordt geschreven.
+- `writing-style.md` — verplicht lezen vóór publiek zichtbare tekst wordt
+  geschreven.
 - `sources/workflow-ontwikkeling-cursus-pf-coursewright.md` — ruwe chronologie
   en mogelijke voorbeelden uit de ontwikkeling van de cursus en Coursewright.
 - `sources/tm-ai-beleid.md` — tekstversie van het AI-beleid van Thomas More;
