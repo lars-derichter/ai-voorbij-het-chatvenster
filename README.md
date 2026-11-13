@@ -1,5 +1,7 @@
 # Slidev template
 
+🔗 **Live presentation:** https://lars-derichter.github.io/ai-voorbij-het-chatvenster/
+
 A clean, minimal [Slidev](https://sli.dev) starter set up to deploy to GitHub
 Pages.
 
