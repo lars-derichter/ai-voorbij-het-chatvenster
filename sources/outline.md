@@ -34,6 +34,7 @@
       is, mag je vertrouwen hebben
     - kijk resultaat na, werk iteratief
   - Workflows:
+    - Denk in workflows
     - Als je iets vaker doet: maak een skill (spijtig genoeg hebben we met onze
       installatie geen toegang tot centrale skills en plugins, maar je kan wel
       skills in je project folder kopiëren in de .agents folder)
@@ -47,3 +48,18 @@
           zijn (krijgt een specifieke taak, controleert de eigen kwaliteit voor
           doorsturen naar de manager)
         - kan heel complex en diep: voorbeeld boekvertaling
+  - Probeer dingen uit:
+    - test wat voor jou werkt, laat de ai je helpen om je te helpen
+    - vraag hoe de ai je kan helpen bij een bepaalde taak
+    - laat de ai je interviewen
+    - weeg af: besteed vooral uit wat je zelf niet zoveel voldoening uit haalt
+    - the jagged frontier
+    - bonus: geef de opdrachten die je aan je studenten geeft aan de ai (best
+      mogelijke model waartoe je toegang hebt) (en schrik niet; een op zichzelf
+      staand essay is geen valide evaluatie meer, zeker niet als de student in
+      kwestie goed kan prompten en de moeite neemt om het resultaat nog wat bij
+      te sturen)
+  - Volgende stappen:
+    - exploreer de repository die bij deze workshop hoort
+    - leer met markdown werken
+    - leer git gebruiken
