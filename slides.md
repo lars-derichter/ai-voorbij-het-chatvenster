@@ -6,7 +6,7 @@ info: |
 mdc: true
 layout: cover
 eyebrow: Workshop
-presenter: Lars De Richter
+author: Lars De Richter
 affiliation: Thomas More
 hideInToc: true
 ---
