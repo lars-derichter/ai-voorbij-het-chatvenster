@@ -461,12 +461,10 @@ wordt; reserveer tijd voor een laatste controle en de publicatiestap.
 -->
 
 ---
-
 layout: section
 color: navy
 number: "04"
 eyebrow: Een stap verder
-
 ---
 
 # Samenwerken met agents
@@ -553,12 +551,10 @@ workflow; het suggereert geen gelijktijdige verwerking van hoofdstukken.
 -->
 
 ---
-
 layout: section
 color: navy
 number: "05"
 eyebrow: Eye opener
-
 ---
 
 # Probeer ook je eigen opdracht
@@ -577,12 +573,10 @@ beoordelen. Geef geen identificerende studentgegevens mee.
 -->
 
 ---
-
 layout: section
 color: navy
 number: "06"
 eyebrow: Conclusies
-
 ---
 
 # De zes principes op een rij
