@@ -1,207 +1,356 @@
 ---
 theme: tm
-title: Webdesign in de praktijk
+title: AI voorbij het chatvenster
 info: |
-  A presentation built with Slidev.
-  &copy; Lars De Richter
+  Workshop voor medewerkers van Thomas More.
 mdc: true
 layout: cover
-eyebrow: Graduaat programmeren
+eyebrow: Workshop
 presenter: Lars De Richter
 affiliation: Thomas More
 hideInToc: true
 ---
 
+# AI voorbij het chatvenster
+
+Van losse gesprekken naar samenwerken aan bestanden
+
 <!--
-  Starter deck for the tm theme — shows every custom layout and the three
-  colorways.
+Stel jezelf voor. De deelnemers kennen chatbots al. Vandaag kijken we hoe AI
+kan helpen bij werk dat uit meerdere bestanden en stappen bestaat.
 -->
 
-# Webdesign in de praktijk
-
-Van schets tot werkende site
-
----
-layout: toc
-hideInToc: true
 ---
 
-# Inhoud
+# Vandaag
+
+- Van cursusmateriaal naar een toets
+- Van losse instructies naar een herbruikbare werkwijze
+- Een eerste stap voor je eigen werk
+
+<!--
+De demo staat centraal. Deelnemers hoeven niet mee te werken op een laptop.
+De vertaling naar het Engels is een tweede toepassing; de boekvertaling toont
+hoe ver je een workflow kunt uitbouwen.
+-->
+
+---
+
+# Eerst: het kader van Thomas More
+
+- Deel geen identificerende gegevens van studenten.
+- Laat AI geen studentenwerk quoteren.
+- Controleer het resultaat. Jij blijft verantwoordelijk.
+- Wees transparant over betekenisvol AI-gebruik.
+
+[AI-beleid van Thomas More](https://thomasmore365.sharepoint.com/sites/ICTS/Gedeelde%20documenten/Forms/AllItems.aspx?id=%2Fsites%2FICTS%2FGedeelde%20documenten%2F260924%2DTM%2DAD%2DFlow%2EAI%2DOD%202%2DAI%20CC%2DAI%20Beleid%2DDefinitief%20%28TM%2Dversie%29%2Epdf&parent=%2Fsites%2FICTS%2FGedeelde%20documenten)
+
+<!--
+Focus vandaag op de technische mogelijkheden, binnen het geldende kader.
+Gebruik voor de demo fictief of publiek materiaal. Het beleid vraagt ook
+zorgvuldigheid met vertrouwelijke gegevens, auteursrechten en brongebruik.
+-->
 
 ---
 layout: section
 color: navy
 number: "01"
-eyebrow: Eerste deel
+eyebrow: Van gesprek naar project
 ---
 
-# Fundamenten
+# Geef AI een werkplek
 
-HTML als skelet, CSS als huisstijl.
-
----
-level: 2
----
-
-# Drie gewoontes van goede markup
-
-Begin bij de structuur, niet bij de opmaak.
-
-- **Semantiek eerst.** Kies het element op basis van betekenis, niet van uiterlijk.
-  - `<nav>` voor navigatie, `<article>` voor een zelfstandig stuk inhoud
-  - een `<div>` is pas de laatste optie
-    - ook voor een [screenreader](https://developer.mozilla.org/) telt dit
-- **Valideer vroeg.** Eén vergeten sluittag kost je een namiddag.
-
----
-level: 2
----
-
-Voorbeeld {.eyebrow}
-
-# Eén component, één taak
-
-```ts
-// Bereken de leesbaarheidsscore van een tekst
-export function readability(text: string): number {
-  const words = text.split(/\s+/).length;
-  const sentences = text.split(/[.!?]+/).length;
-  return 206.835 - 1.015 * (words / sentences);
-}
-```
+Bestanden en afspraken blijven bij elkaar.
 
 ---
 layout: two-cols-tm
-level: 2
 ---
 
-# Twee manieren om te reviseren
+# Chat, Work en Codex
 
 ::left::
 
-Top-down {.eyebrow.teal}
+**Chat**
 
-Vertrek van de structuur. Controleer of elke sectie haar plaats verdient
-voor je één selector begint te verfijnen.
+Vragen stellen, ideeën verkennen, samen denken.
+
+**Work**
+
+Taken uitvoeren met bestanden en hulpmiddelen.
 
 ::right::
 
-Bottom-up {.eyebrow}
+**Codex**
 
-Vertrek van de details. Schrap dode regels CSS en laat de structuur
-zichzelf tonen terwijl de stylesheet leaner wordt.
+Werken aan code en projecten, ook met documenten.
+
+Vandaag gebruiken we **Work** in de ChatGPT-desktopapp.
+
+<!--
+Toon de app en hoe je een lokaal project opent en toegang tot een map geeft.
+Beschikbaarheid hangt af van het abonnement en de instellingen van de
+werkruimte. Codex is voor deze workshop geen vereiste.
+-->
 
 ---
-layout: quote
-author: Piet Pienter
+
+# Een map als werkplek
+
+```text
+cursusproject/
+├── modules/       ← cursusmateriaal
+├── sources/       ← aanvullende bronnen
+├── AGENTS.md      ← afspraken voor dit project
+└── toets/         ← resultaat
+```
+
+<!--
+Dit is een schematisch voorbeeld, geen voorstelling van een al bestaand
+voorbeeldproject. Open later de echte map in Work en eventueel in VS Code.
+Maak duidelijk welke bestanden de agent mag gebruiken en waar hij mag schrijven.
+-->
+
 ---
 
-Deze slide is perfect voor citaten of andere korte teksten.
+# Waarom tekst?
+
+- Je kunt tekst makkelijk lezen, aanpassen en vergelijken.
+- AI kan rechtstreeks met je bestanden werken.
+- Vanuit één bron kun je naar andere formaten exporteren.
+
+<!--
+Deel je eigen ervaring: zo veel en zo lang mogelijk in tekst werken maakt je
+workflow efficiënter. Tekst kan ook de bron zijn voor Word of PDF. Een tool
+zoals Pandoc helpt bij omzetting; vraag AI om daarbij te helpen.
+-->
 
 ---
-layout: cover
-color: orange
-eyebrow: Colorway demo
-presenter: Lars De Richter
-affiliation: Thomas More
-hideInToc: true
----
 
-# Dezelfde cover, in het oranje
+# Markdown: tekst met eenvoudige opmaak
 
-Elke layout aanvaardt `color: white | orange | navy`
+```markdown
+# Een titel
+
+Een alinea met **nadruk**.
+
+- Een eerste punt
+- Een tweede punt
+```
+
+Leesbaar als tekst én om te zetten naar andere formaten.
+
+<!--
+Toon het bestand en de weergave naast elkaar. Je hoeft Markdown niet volledig
+uit het hoofd te kennen: laat AI helpen met de opmaak.
+-->
 
 ---
 layout: section
-color: orange
-number: "02"
-eyebrow: Tweede deel
----
-
-# Kleur als structuur
-
-De drie colorways komen rechtstreeks uit het PowerPoint-sjabloon.
-
----
 color: navy
-level: 2
+number: "02"
+eyebrow: Demonstratie
 ---
 
-# Inhoud op een donkere achtergrond
+# Van cursus naar toets
 
-Ook gewone contentslides kunnen een colorway krijgen.
-
-- De bullets wisselen mee van kleur
-  - net als links en de footer
-- Gebruik dit spaarzaam: wit is de standaard voor inhoud
+Context geven, samen plannen, maken en nakijken.
 
 ---
-layout: image-side
-image: /demo.jpg
-eyebrow: Figuur 1
-caption: De foto vult de helft van de slide, van rand tot rand.
-credit: Foto · TM-sjabloon
-level: 2
----
 
-## Beeld naast tekst
+# Begin met een duidelijke opdracht
 
-De foto kadert automatisch (`cover`); de tekstkolom centreert zichzelf.
+> Maak op basis van deze twee cursusmodules een voorstel voor een toets.
+> Stel eerst een plan voor en wacht op mijn feedback.
 
----
-layout: image-side
-image: /demo.jpg
-side: left
-fit: contain
-eyebrow: Figuur 2
-caption: Volledig getoond, zonder bijsnijden.
-level: 2
----
+Geef ook mee: doelgroep, leerdoelen, duur en gewenste vraagtypes.
 
-## Wanneer bijsnijden zou liegen
-
-`fit: contain` toont het volledige beeld in het paneel. Gebruik het voor
-screenshots, diagrammen en alles met randen die betekenis dragen.
+<!--
+Open het voorbeeldproject zodra het beschikbaar is. De prompt op de slide is
+een startpunt: vul de informatie aan op basis van de echte modules. Vraag de
+agent om onduidelijkheden te benoemen. Toon het plan en stuur het bij vóór de
+agent de toets uitwerkt.
+-->
 
 ---
-layout: image-full
-image: /demo.jpg
-eyebrow: Figuur 3
-caption: Het bijschrift ligt op een vlak kleurblok met een oranje accent.
-credit: Foto · TM-sjabloon
-level: 2
----
 
-### Een slidevullend beeld
+# Context maakt het verschil
 
----
-level: 2
----
+- **Bronnen:** wat moet de AI weten?
+- **Afspraken:** wat geldt voor dit project?
+- **Opdracht:** wat wil je nu bereiken?
 
-Figuur 4 {.eyebrow}
-
-# Een beeld in de tekstflow
-
-Een Markdown-afbeelding op haar eigen regel wordt gecentreerd en krijgt een
-vlak paneel. Let op het pad: Markdown-afbeeldingen zijn **relatief**, niet
-`/demo.jpg`.
-
-![Studenten aan Thomas More](./public/demo.jpg){.max-h-40}
+<!--
+Toon de modules en eventuele leerdoelen in de projectmap. Maak onderscheid
+tussen bronmateriaal, blijvende projectafspraken en de huidige opdracht.
+Vraag AI om je te interviewen als je je eigen verwachtingen nog wilt uitklaren.
+-->
 
 ---
-level: 2
+
+# `AGENTS.md`: afspraken voor je project
+
+```markdown
+# Afspraken
+
+- Gebruik de cursusmodules als bron voor de toets.
+- Stel eerst een plan voor en vraag feedback.
+- Schrijf helder Nederlands voor studenten.
+- Benoem onzekerheden en controleer het resultaat.
+```
+
+<!--
+Dit is een klein illustratief voorbeeld. Toon hoe je samen met AI afspraken
+opstelt en aanpast. De instructies reizen mee met de projectmap; controleer in
+de gebruikte omgeving of ze worden ingelezen. Afspraken blijven mensenwerk en
+zijn geen garantie dat de agent ze perfect volgt.
+-->
+
 ---
 
-# Tabellen en accentkleuren
+# Eerst plannen, dan bijsturen
 
-| Opleiding    | 2024 | 2025 |
-| ------------ | ---- | ---- |
-| Programmeren | 210  | 245  |
-| Webdesign    | 138  | 152  |
+1. Laat een plan voorstellen.
+2. Kijk na en stuur bij.
+3. Laat de AI uitvoeren.
+4. Controleer en verbeter het resultaat.
 
-De accentkleuren uit het sjabloon: [teal]{.teal}, [groen]{.green} en
-[navy]{.navy} kleuren ook tekst; amber, cyan en lime zijn te licht voor tekst
-en dienen voor grafieken. Oranje hou je voor titels.
+<!--
+Laat zien wat je in het plan zou veranderen. Een goed plan helpt, maar ook
+tijdens de uitvoering kun je bijsturen en achteraf blijft controle nodig.
+-->
+
+---
+
+# Wat maakt deze toets goed?
+
+- Sluiten de vragen aan bij de leerdoelen en modules?
+- Zijn de vragen duidelijk en de antwoorden correct?
+- Past de toets bij de beschikbare tijd en doelgroep?
+
+<!--
+Bekijk samen minstens één vraag en het bijbehorende cursusfragment. Toon een
+verbetering of vraag een aanpassing. Laat zien hoe je wijzigingen in de
+bestanden bekijkt. Jij maakt de didactische keuzes en beoordeelt de kwaliteit.
+-->
+
+---
+layout: section
+color: navy
+number: "03"
+eyebrow: Van taak naar workflow
+---
+
+# Doe je dit vaker?
+
+Maak je werkwijze herbruikbaar.
+
+---
+
+# Een skill is een herbruikbare werkwijze
+
+Een map met instructies en eventueel voorbeelden of hulpmiddelen.
+
+```text
+.agents/skills/toets-maken/
+└── SKILL.md
+```
+
+Bijvoorbeeld: eerst een toetsplan, dan feedback, daarna uitwerken en controleren.
+
+<!--
+Vertrek van de werkwijze die je net hebt doorlopen. Laat AI helpen om de stappen
+als skill op te schrijven. In de geteste omgeving worden skills in de projectmap
+gevonden; beschikbaarheid en instellingen kunnen per omgeving verschillen.
+Toon de skill en test met een nieuwe opdracht als het voorbeeld klaar is.
+-->
+
+---
+
+# Nog een voorbeeld: vertalen
+
+**Opdracht:** vertaal een tekst naar het Engels.
+
+**Context:** doelgroep, gewenste toon en woordenlijst.
+
+**Controle:** betekenis, termen, cijfers en leesbaarheid.
+
+<!--
+Verbind dit met werk buiten het onderwijs: een handleiding of projecttekst voor
+internationale collega's. Een eenvoudige vertaling kan uitgroeien tot een
+herbruikbare skill. Controleer de vertaling ook zelf.
+-->
+
+---
+
+# Hoe ver kun je gaan?
+
+Een boekvertaling met AI-agents:
+
+- een manager verdeelt en bewaakt het werk;
+- andere agents vertalen en controleren onderdelen;
+- vaste controles en menselijke feedback verbeteren het resultaat.
+
+<!--
+Een agent voert een taak uit en kan daarbij hulpmiddelen gebruiken. Een
+subagent krijgt een afgebakende deeltaak. Dit is een blik op een complexere
+workflow, niet iets wat deelnemers eerst moeten bouwen. In dit praktijkvoorbeeld
+gaat het om een eerste vertaling die de auteurs nog nalezen.
+-->
+
+---
+
+# Experimenteer met je eigen werk
+
+- Welke taak doe je vaker?
+- Welke bronnen en afspraken heeft AI nodig?
+- Hoe herken jij een goed resultaat?
+
+<!--
+Vraag AI om mee te denken of om je te interviewen. Besteed vooral taken uit
+waar je zelf minder voldoening uit haalt. AI kan verrassend sterk zijn in de ene
+taak en tekortschieten in een schijnbaar vergelijkbare taak: blijf testen.
+-->
+
+---
+
+# Probeer ook je eigen opdracht
+
+Geef een studentenopdracht aan een sterk beschikbaar model.
+
+Wat betekent het resultaat voor je evaluatie?
+
+<!--
+Een bewust prikkelende stelling: een op zichzelf staand essay is geen valide
+evaluatie meer, zeker wanneer een student AI goed kan aansturen en het resultaat
+bijstuurt. Gebruik dit als uitnodiging om samen na te denken over wat je wilt
+beoordelen. Geef geen identificerende studentgegevens mee.
+-->
+
+---
+
+# Je eerste stap
+
+1. Kies een kleine, terugkerende taak.
+2. Maak een map met geschikte bronnen.
+3. Open de map in Work en beschrijf je opdracht.
+4. Vraag een plan, stuur bij en kijk het resultaat na.
+
+<!--
+Verwijs na afloop naar de repository, de startgids en het voorbeeldproject
+zodra die klaar zijn. Daarna kun je projectafspraken toevoegen en een workflow
+in een skill bewaren. Markdown en Git kun je verder verkennen op je eigen tempo.
+-->
+
+---
+
+# Bronnen en verder lezen
+
+- [AI-beleid van Thomas More](https://thomasmore365.sharepoint.com/sites/ICTS/Gedeelde%20documenten/Forms/AllItems.aspx?id=%2Fsites%2FICTS%2FGedeelde%20documenten%2F260924%2DTM%2DAD%2DFlow%2EAI%2DOD%202%2DAI%20CC%2DAI%20Beleid%2DDefinitief%20%28TM%2Dversie%29%2Epdf&parent=%2Fsites%2FICTS%2FGedeelde%20documenten)
+- [ChatGPT Work en Codex](https://help.openai.com/en/articles/20001275-chatgpt-work-and-codex)
+- [Skills bouwen](https://learn.chatgpt.com/docs/build-skills)
+- [Instructies met AGENTS.md](https://learn.chatgpt.com/docs/agent-configuration/agents-md)
+- [Markdown Guide](https://www.markdownguide.org/basic-syntax/)
+- [Pandoc](https://pandoc.org/)
 
 ---
 layout: end
@@ -213,3 +362,5 @@ hideInToc: true
 ---
 
 # Bedankt!
+
+Wat wil jij eens proberen?
