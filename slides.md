@@ -24,14 +24,34 @@ kan helpen bij werk dat uit meerdere bestanden en stappen bestaat.
 
 # Vandaag
 
-- Van cursusmateriaal naar een toets
-- Van losse instructies naar een herbruikbare werkwijze
+- Zes principes om met AI samen te werken
+- Hoe deze presentatie gemaakt is
+- Live: een startgids voor Markdown maken
+- Van een taak naar een herbruikbare workflow
 - Een eerste stap voor je eigen werk
 
 <!--
 De demo staat centraal. Deelnemers hoeven niet mee te werken op een laptop.
-De vertaling naar het Engels is een tweede toepassing; de boekvertaling toont
-hoe ver je een workflow kunt uitbouwen.
+Dit project is de rode draad. We maken live een Markdown-startgids in de
+projectmap. De vertaling naar het Engels is een tweede toepassing; de
+boekvertaling toont hoe ver je een workflow kunt uitbouwen.
+-->
+
+---
+
+# Zes principes
+
+1. Werk zo veel en zo lang mogelijk in tekst.
+2. Geef context.
+3. Weet wat kwaliteit voor jou betekent.
+4. Geef heldere instructies en stuur bij.
+5. Denk in workflows.
+6. Blijf experimenteren.
+
+<!--
+Deze principes keren terug in de voorbeelden en op het einde van de workshop.
+Ze zijn een manier van werken, geen checklist die je telkens volledig moet
+doorlopen. We herkennen ze in dit project en in het maken van de startgids.
 -->
 
 ---
@@ -94,25 +114,42 @@ werkruimte. Codex is voor deze workshop geen vereiste.
 
 ---
 
-# Een map als werkplek
+# Aan de slag met Work
 
-```text
-cursusproject/
-├── modules/       ← cursusmateriaal
-├── sources/       ← aanvullende bronnen
-├── AGENTS.md      ← afspraken voor dit project
-└── toets/         ← resultaat
-```
+1. Installeer en open de ChatGPT-desktopapp.
+2. Kies **Work** en open een lokaal project.
+3. Geef toegang tot de map waarin je wilt werken.
+4. Beschrijf de taak en bekijk de wijzigingen.
 
 <!--
-Dit is een schematisch voorbeeld, geen voorstelling van een al bestaand
-voorbeeldproject. Open later de echte map in Work en eventueel in VS Code.
-Maak duidelijk welke bestanden de agent mag gebruiken en waar hij mag schrijven.
+Toon de stappen in de Thomas More-omgeving. Work en toegang tot lokale
+bestanden hangen af van abonnement en instellingen. Een project brengt werk
+samen; toegang tot de lokale map laat de agent met bestanden daarin werken.
+Codex is afzonderlijk beheerd en is hier niet nodig.
 -->
 
 ---
 
-# Waarom tekst?
+# Deze presentatie is een project
+
+```text
+ai-voorbij-het-chatvenster/
+├── slides.md          ← deze presentatie
+├── sources/           ← ideeën en bronnen
+├── writing-style.md   ← afspraken over stijl
+└── AGENTS.md          ← afspraken voor het project
+```
+
+<!--
+Open de echte map in Work en eventueel in VS Code. Deze presentatie is samen
+met AI gemaakt en door Lars bijgestuurd. Laat zien dat de bestanden die het
+verhaal ondersteunen samen in de projectmap staan. Maak duidelijk welke
+bestanden de agent mag gebruiken en waar hij mag schrijven.
+-->
+
+---
+
+# 1. Werk zo veel mogelijk in tekst
 
 - Je kunt tekst makkelijk lezen, aanpassen en vergelijken.
 - AI kan rechtstreeks met je bestanden werken.
@@ -122,6 +159,24 @@ Maak duidelijk welke bestanden de agent mag gebruiken en waar hij mag schrijven.
 Deel je eigen ervaring: zo veel en zo lang mogelijk in tekst werken maakt je
 workflow efficiënter. Tekst kan ook de bron zijn voor Word of PDF. Een tool
 zoals Pandoc helpt bij omzetting; vraag AI om daarbij te helpen.
+-->
+
+---
+
+# Van tekst naar een document
+
+**Schrijf en bewaar** je inhoud in Markdown.
+
+**Bewerk en vergelijk** bestanden in een teksteditor, zoals VS Code.
+
+**Exporteer** bijvoorbeeld naar Word of PDF, met hulp van AI en Pandoc.
+
+<!--
+Toon eventueel de tekst en de weergave naast elkaar in VS Code. Pandoc is een
+hulpmiddel om documenten om te zetten; de exacte mogelijkheden en opmaak hangen
+af van het formaat en de gekozen instellingen. Vraag AI om te helpen bij de
+omzetting en controleer het geëxporteerde resultaat. Deze presentatie gebruikt
+Slidev om slides.md als presentatie te tonen.
 -->
 
 ---
@@ -151,59 +206,121 @@ number: "02"
 eyebrow: Demonstratie
 ---
 
-# Van cursus naar toets
+# Live: een Markdown-startgids
 
-Context geven, samen plannen, maken en nakijken.
+Samen plannen, maken, nakijken en delen.
+
+<!--
+De gids bestaat nog niet: we maken hem tijdens de workshop. Bereid een
+reserveversie voor en test vooraf hoe het delen via de repository werkt. Als
+de live uitvoering vastloopt, toon je de reserveversie en benoem je wat er
+gebeurd is. Publiceer pas na nazicht; ga niet uit van automatische publicatie.
+-->
 
 ---
 
 # Begin met een duidelijke opdracht
 
-> Maak op basis van deze twee cursusmodules een voorstel voor een toets.
+> Maak een startgids waarmee collega's zelfstandig Markdown kunnen gebruiken.
 > Stel eerst een plan voor en wacht op mijn feedback.
 
-Geef ook mee: doelgroep, leerdoelen, duur en gewenste vraagtypes.
+Geef ook mee: voorkennis, doel, voorbeelden en waar de gids moet komen.
 
 <!--
-Open het voorbeeldproject zodra het beschikbaar is. De prompt op de slide is
-een startpunt: vul de informatie aan op basis van de echte modules. Vraag de
-agent om onduidelijkheden te benoemen. Toon het plan en stuur het bij vóór de
-agent de toets uitwerkt.
+Open dit project in Work. De prompt is een startpunt: vraag om een beknopte,
+zelfstandig bruikbare gids in Markdown met voorbeelden om uit te proberen.
+Vraag de agent om de projectafspraken en schrijfstijl te lezen en relevante
+bronnen te gebruiken. Spreek af waar het bestand komt. Toon het plan, geef
+feedback en keur het goed vóór de agent de gids uitwerkt.
 -->
 
 ---
 
-# Context maakt het verschil
+# 2. Geef context
 
 - **Bronnen:** wat moet de AI weten?
 - **Afspraken:** wat geldt voor dit project?
 - **Opdracht:** wat wil je nu bereiken?
 
 <!--
-Toon de modules en eventuele leerdoelen in de projectmap. Maak onderscheid
+Toon sources/, writing-style.md en AGENTS.md in de projectmap. Maak onderscheid
 tussen bronmateriaal, blijvende projectafspraken en de huidige opdracht.
 Vraag AI om je te interviewen als je je eigen verwachtingen nog wilt uitklaren.
 -->
 
 ---
 
-# `AGENTS.md`: afspraken voor je project
+# Welke context hoort waar?
+
+- **Persoonlijke instructies:** voorkeuren voor je gesprekken.
+- **Bronnen in je map:** materiaal dat relevant is voor deze taak.
+- **`AGENTS.md`:** afspraken die bij het project horen.
+- **Je opdracht:** wat je nu wilt laten doen.
+
+<!--
+Bijvoorbeeld: een persoonlijke voorkeur voor helder Nederlands, de outline als
+bron, writing-style.md en AGENTS.md als projectafspraken, en de huidige
+opdracht om een Markdown-startgids te maken. De beschikbaarheid en werking van
+instructies verschilt per toepassing en instelling.
+-->
+
+---
+
+# Laat AI je interviewen
+
+> Help me om mijn verwachtingen voor deze startgids helder te krijgen.
+> Stel me één vraag per keer.
+
+Bewaar de afspraken die later opnieuw van pas komen.
+
+<!--
+Een interview kan helpen om doelgroep, voorkennis, toon of kwaliteitscriteria
+concreet te maken. Beslis zelf welke antwoorden en afspraken je bewaart en waar.
+-->
+
+---
+
+# `AGENTS.md`: afspraken voor dit project
 
 ```markdown
 # Afspraken
 
-- Gebruik de cursusmodules als bron voor de toets.
-- Stel eerst een plan voor en vraag feedback.
-- Schrijf helder Nederlands voor studenten.
-- Benoem onzekerheden en controleer het resultaat.
+- Leg inhoudelijke keuzes eerst voor in een plan.
+- Lees writing-style.md voor publiek zichtbare tekst.
+- Verifieer feiten en actuele functies.
+- Lever documentatie als Markdown aan.
 ```
 
 <!--
-Dit is een klein illustratief voorbeeld. Toon hoe je samen met AI afspraken
-opstelt en aanpast. De instructies reizen mee met de projectmap; controleer in
-de gebruikte omgeving of ze worden ingelezen. Afspraken blijven mensenwerk en
-zijn geen garantie dat de agent ze perfect volgt.
+Dit zijn beknopte parafrases van afspraken uit het echte projectbestand. Open
+AGENTS.md om de volledige afspraken te tonen. Toon hoe je samen met AI
+afspraken opstelt en aanpast. Afspraken blijven mensenwerk en zijn geen garantie
+dat de agent ze perfect volgt.
 -->
+
+---
+
+# 3. Weet wat kwaliteit betekent
+
+Wat maakt een resultaat voor jou goed?
+
+- Welke voorbeelden vind je sterk?
+- Welke fouten zijn onaanvaardbaar?
+- Wat moet je zelf beoordelen?
+
+<!--
+Kwaliteitsbesef en smaak zijn belangrijk wanneer produceren makkelijker wordt.
+Maak verwachtingen concreet met voorbeelden en criteria; toets die ook aan het
+resultaat. Een agent kan helpen controleren, maar neemt je oordeel niet over.
+-->
+
+---
+
+# 4. Geef heldere instructies en stuur bij
+
+Zeg wat je wilt bereiken, voor wie en met welke randvoorwaarden.
+
+Je prompt hoeft niet perfect te zijn: stel vragen en verfijn samen.
 
 ---
 
@@ -221,16 +338,17 @@ tijdens de uitvoering kun je bijsturen en achteraf blijft controle nodig.
 
 ---
 
-# Wat maakt deze toets goed?
+# Wat maakt deze startgids goed?
 
-- Sluiten de vragen aan bij de leerdoelen en modules?
-- Zijn de vragen duidelijk en de antwoorden correct?
-- Past de toets bij de beschikbare tijd en doelgroep?
+- Kan een beginner er zelfstandig mee aan de slag?
+- Zijn de uitleg en voorbeelden juist en duidelijk?
+- Kan de lezer iets uitproberen en het resultaat herkennen?
 
 <!--
-Bekijk samen minstens één vraag en het bijbehorende cursusfragment. Toon een
-verbetering of vraag een aanpassing. Laat zien hoe je wijzigingen in de
-bestanden bekijkt. Jij maakt de didactische keuzes en beoordeelt de kwaliteit.
+Bekijk samen minstens één uitleg en probeer een voorbeeld uit. Controleer
+juistheid, duidelijkheid en links. Toon een verbetering of vraag een aanpassing.
+Laat zien hoe je wijzigingen bekijkt. Lars beoordeelt de gids vóór die gedeeld
+wordt; reserveer tijd voor een laatste controle en de publicatiestap.
 -->
 
 ---
@@ -246,22 +364,46 @@ Maak je werkwijze herbruikbaar.
 
 ---
 
+# 5. Denk in workflows
+
+Welke stappen herhaal je, en waar wil je zelf beslissen?
+
+**Startgids:** context lezen → plan → feedback → schrijven → controleren.
+
+Maak van een aanpak die werkt een herbruikbare skill.
+
+---
+
 # Een skill is een herbruikbare werkwijze
 
 Een map met instructies en eventueel voorbeelden of hulpmiddelen.
 
 ```text
-.agents/skills/toets-maken/
+.agents/skills/gids-maken/
 └── SKILL.md
 ```
 
-Bijvoorbeeld: eerst een toetsplan, dan feedback, daarna uitwerken en controleren.
+Bijvoorbeeld: eerst een plan, dan feedback, daarna schrijven en controleren.
 
 <!--
 Vertrek van de werkwijze die je net hebt doorlopen. Laat AI helpen om de stappen
-als skill op te schrijven. In de geteste omgeving worden skills in de projectmap
-gevonden; beschikbaarheid en instellingen kunnen per omgeving verschillen.
-Toon de skill en test met een nieuwe opdracht als het voorbeeld klaar is.
+als skill op te schrijven wanneer je vaker gidsen maakt. De map op de slide is
+een illustratief voorbeeld, geen bestaande skill. In de geteste omgeving worden
+skills in de projectmap gevonden; instellingen kunnen per omgeving verschillen.
+-->
+
+---
+
+# Skills in ons project
+
+- Bewaar een skill in `.agents/skills` in je projectmap.
+- In onze geteste omgeving wordt die daar gevonden.
+- Centrale skills en plugins zijn in onze installatie niet beschikbaar.
+
+<!--
+Toon waar SKILL.md staat en hoe je de skill laat gebruiken. Dit beschrijft de
+geteste installatie; functies en toegang kunnen in een andere omgeving anders
+zijn. Een skill kan ook voorbeelden en aanvullende bestanden bevatten.
 -->
 
 ---
@@ -278,6 +420,32 @@ Toon de skill en test met een nieuwe opdracht als het voorbeeld klaar is.
 Verbind dit met werk buiten het onderwijs: een handleiding of projecttekst voor
 internationale collega's. Een eenvoudige vertaling kan uitgroeien tot een
 herbruikbare skill. Controleer de vertaling ook zelf.
+-->
+
+---
+
+# Wat is een agent?
+
+Een **agent** voert een taak uit en kan hulpmiddelen gebruiken.
+
+Een **subagent** krijgt een afgebakende deeltaak en rapporteert terug.
+
+Jij bepaalt de opdracht en beoordeelt het resultaat.
+
+---
+
+# Een team van agents
+
+- Een **manager** bewaakt het geheel en de eindkwaliteit.
+- Subagents krijgen elk een duidelijke deeltaak.
+- Ze controleren hun werk en rapporteren aan de manager.
+
+<!--
+In mijn favoriete opzet gebruikt de manager een sterk model met een hogere
+redeneerinspanning; een eenvoudiger model kan volstaan voor een afgebakende
+deeltaak. De mogelijkheden en modelkeuze hangen af van de toepassing en de
+omgeving. Een manager neemt onze verantwoordelijkheid voor de eindkwaliteit
+niet weg.
 -->
 
 ---
@@ -299,11 +467,12 @@ gaat het om een eerste vertaling die de auteurs nog nalezen.
 
 ---
 
-# Experimenteer met je eigen werk
+# 6. Blijf experimenteren
 
 - Welke taak doe je vaker?
 - Welke bronnen en afspraken heeft AI nodig?
 - Hoe herken jij een goed resultaat?
+- Welk werk besteed je graag uit?
 
 <!--
 Vraag AI om mee te denken of om je te interviewen. Besteed vooral taken uit
@@ -313,17 +482,59 @@ taak en tekortschieten in een schijnbaar vergelijkbare taak: blijf testen.
 
 ---
 
+# Vraag AI om mee te denken
+
+> Ik doe regelmatig deze taak. Hoe zou AI me daarbij kunnen helpen?
+> Stel vragen om mijn werkwijze te begrijpen.
+
+Probeer een kleine stap uit en kijk wat voor jou werkt.
+
+---
+
+# De mogelijkheden zijn grillig
+
+AI kan verrassend goed zijn in een moeilijke taak en struikelen over iets dat
+eenvoudig lijkt.
+
+**Test, controleer en leer waar de grenzen voor jouw werk liggen.**
+
+<!--
+Dit wordt ook de jagged frontier genoemd: de grens van AI-capaciteiten is niet
+rechtlijnig. Wat werkt hangt onder meer af van de taak, het model en de context.
+Koppel dit aan een concreet voorbeeld uit de demonstratie.
+-->
+
+---
+
 # Probeer ook je eigen opdracht
 
-Geef een studentenopdracht aan een sterk beschikbaar model.
+Geef je studentenopdracht aan het beste model dat je kunt gebruiken.
 
-Wat betekent het resultaat voor je evaluatie?
+**Mijn stelling:** een op zichzelf staand essay is geen valide evaluatie meer.
+
+Wat betekent het resultaat voor wat je wilt beoordelen?
 
 <!--
 Een bewust prikkelende stelling: een op zichzelf staand essay is geen valide
 evaluatie meer, zeker wanneer een student AI goed kan aansturen en het resultaat
 bijstuurt. Gebruik dit als uitnodiging om samen na te denken over wat je wilt
 beoordelen. Geef geen identificerende studentgegevens mee.
+-->
+
+---
+
+# De zes principes, nog eens
+
+1. Werk zo veel en zo lang mogelijk in tekst.
+2. Geef context.
+3. Weet wat kwaliteit voor jou betekent.
+4. Geef heldere instructies en stuur bij.
+5. Denk in workflows.
+6. Blijf experimenteren.
+
+<!--
+Verbind elk principe kort met de presentatie, de startgids en het vertaalvoorbeeld.
+Deelnemers kunnen één principe kiezen om zelf mee te beginnen.
 -->
 
 ---
@@ -336,9 +547,25 @@ beoordelen. Geef geen identificerende studentgegevens mee.
 4. Vraag een plan, stuur bij en kijk het resultaat na.
 
 <!--
-Verwijs na afloop naar de repository, de startgids en het voorbeeldproject
-zodra die klaar zijn. Daarna kun je projectafspraken toevoegen en een workflow
+Verwijs na afloop naar de repository en de startgids zodra die gedeeld is.
+Daarna kun je projectafspraken toevoegen en een workflow
 in een skill bewaren. Markdown en Git kun je verder verkennen op je eigen tempo.
+-->
+
+---
+
+# Verder aan de slag
+
+- Verken de repository en de bestanden van deze presentatie.
+- Gebruik de Markdown-startgids die we vandaag maken.
+- Leer werken met Markdown en pas een tekstbestand aan.
+- Probeer projectinstructies en een skill uit.
+- Leer Git gebruiken om wijzigingen te volgen en te bewaren.
+
+<!--
+De repository is de verzameling bestanden bij deze workshop. Deel de link naar
+de gids zodra die is gepubliceerd. Git is een hulpmiddel voor versiebeheer;
+je hoeft het niet te beheersen om met de eerste stappen te beginnen.
 -->
 
 ---
@@ -351,6 +578,7 @@ in een skill bewaren. Markdown en Git kun je verder verkennen op je eigen tempo.
 - [Instructies met AGENTS.md](https://learn.chatgpt.com/docs/agent-configuration/agents-md)
 - [Markdown Guide](https://www.markdownguide.org/basic-syntax/)
 - [Pandoc](https://pandoc.org/)
+- [Git: aan de slag](https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control)
 
 ---
 layout: end
