@@ -54,4 +54,4 @@ je opdracht. Probeer minstens één punt uit. Vraag een verbetering als dat nodi
 is en bekijk de wijzigingen opnieuw. Jij beslist wat je overneemt en deelt.
 
 Wil je afspraken hergebruiken? Ga verder met de [gids over projectinstructies,
-skills en agents](projectinstructies-skills-agents.md).
+skills en agents](herbruikbare-instructies-skills-en-agents.md).

@@ -68,7 +68,7 @@ De twee gidsen en de reserveversie staan nu klaar. Ik heb ook een instructie toe
 
 De goedgekeurde onderdelen staan klaar:
 
-- [Startgids voor Work](/Users/lars/-work/thomas-more/ai-competence-center/ai-voorbij-het-chatvenster/startgids-work.md) en een [korte gids over projectinstructies, skills en agents](/Users/lars/-work/thomas-more/ai-competence-center/ai-voorbij-het-chatvenster/projectinstructies-skills-agents.md).
+- [Startgids voor Work](/Users/lars/-work/thomas-more/ai-competence-center/ai-voorbij-het-chatvenster/startgids-work.md) en een [korte gids over projectinstructies, skills en agents](/Users/lars/-work/thomas-more/ai-competence-center/ai-voorbij-het-chatvenster/herbruikbare-instructies-skills-en-agents.md).
 - Een [reserveversie van de Markdown-startgids](/Users/lars/-work/thomas-more/ai-competence-center/ai-voorbij-het-chatvenster/sources/markdown-startgids-reserve.md), met de afspraak in [AGENTS.md](/Users/lars/-work/thomas-more/ai-competence-center/ai-voorbij-het-chatvenster/AGENTS.md) om die tijdens de demo te negeren tenzij jij erom vraagt.
 - De [README](/Users/lars/-work/thomas-more/ai-competence-center/ai-voorbij-het-chatvenster/README.md) verwijst naar de gidsen en voorbeelden; de presentatie bevat een klikbare link naar de gids over instructies, skills en agents. De [deliverableslijst](/Users/lars/-work/thomas-more/ai-competence-center/ai-voorbij-het-chatvenster/sources/deliverables.md) is aangevuld.
 

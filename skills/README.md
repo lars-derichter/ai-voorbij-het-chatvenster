@@ -29,5 +29,5 @@ Jij blijft verantwoordelijk voor de inhoud en beoordeling.
 4. Geef de gevraagde bronnen mee, bespreek het voorstel en controleer het
    resultaat. De ondersteuning voor skills verschilt per toepassing en omgeving.
 
-Zie ook de [gids over projectinstructies, skills en agents](../projectinstructies-skills-agents.md)
+Zie ook de [gids over projectinstructies, skills en agents](../herbruikbare-instructies-skills-en-agents.md)
 en de [officiële documentatie over skills](https://learn.chatgpt.com/docs/build-skills).

@@ -11,7 +11,7 @@ terugkerende taken aan te pakken.
 
 - [Startgids voor Work](startgids-work.md): werk aan een kleine taak met een
   lokale map en controleer het resultaat.
-- [Projectinstructies, skills en agents](projectinstructies-skills-agents.md):
+- [Projectinstructies, skills en agents](herbruikbare-instructies-skills-en-agents.md):
   bewaar afspraken en hergebruik een werkwijze. De gids verwijst naar de
   voorbeeldskill en de projectinstructies van deze workshop.
 - [Startgids Git](startgids-git.md): volg wijzigingen en bewaar versies van je
@@ -30,16 +30,21 @@ AI-assistent samen keuzes maakten en het materiaal ontwikkelden.
 
 ## Wat verkennen we?
 
-- **Markdown** is een eenvoudige manier om tekst op te maken in een gewoon
-  tekstbestand. Je kunt er bijvoorbeeld lesmateriaal of instructies in bewaren.
-- In een bestand zoals `AGENTS.md` kun je afspraken voor een project vastleggen,
-  zodat je ze niet telkens opnieuw hoeft uit te leggen aan een AI-assistent.
-- Een **skill** bundelt instructies voor een bepaalde taak. Zo kun je een
-  werkwijze opnieuw gebruiken en aanpassen.
+We werken met AI aan een project met lokale bestanden. De presentatie zelf is
+ons eerste voorbeeld: daarin zie je hoe bronnen, projectafspraken en
+schrijfstijl samenkomen.
 
-We bekijken hoe je vanuit een project met lokale bestanden kunt werken en zo
-minder hoeft te kopiëren en te plakken. Welke functies en bestanden een
-AI-toepassing ondersteunt, hangt af van de toepassing en je omgeving.
+- **Zes principes voor samenwerken met AI:** van context geven en kwaliteit
+  beoordelen tot plannen, workflows en experimenteren.
+- **Markdown en projectafspraken:** tekstbestanden gebruiken voor inhoud en
+  afspraken, bijvoorbeeld in `AGENTS.md`.
+- **Een live demonstratie:** samen met AI een Markdown-startgids plannen,
+  maken en nakijken.
+- **Herbruikbare werkwijzen en agents:** een aanpak bewaren als skill en
+  bekijken hoe agents deeltaken kunnen uitvoeren.
+
+We gebruiken Work in de ChatGPT-desktopapp. De beschikbare functies hangen af
+van je abonnement, instellingen en omgeving.
 
 ## Zorgvuldig omgaan met AI
 
