@@ -27,20 +27,28 @@ om lokaal te beginnen. Werk met fictieve inhoud.
    `git-oefening`, en kies waar je ze wilt bewaren.
 3. Vink **Initialize this repository with a README** aan en kies **Create
    repository**. De map en een eerste commit worden lokaal aangemaakt.
-4. Open de map in je teksteditor en bekijk `README.md`. Dit is een gewoon
-   Markdown-bestand in je project.
+4. Kopieer [writing-style.md](writing-style.md) uit deze repository naar de
+   oefenmap. Heb je de repository nog niet op je computer? Open de link, kies op
+   GitHub **Download raw file** en bewaar het bestand in de oefenmap.
+5. Open de oefenmap in je teksteditor en bekijk `writing-style.md`. Dit
+   Markdown-bestand bevat afspraken over de schrijfstijl voor het
+   workshopmateriaal. Je werkt met een kopie; het oorspronkelijke bestand
+   verandert niet.
 
 In GitHub Desktop toont **History** je opgeslagen momenten.
 
 ## Bekijk en bewaar wijzigingen
 
-1. Voeg in `README.md` een korte beschrijving toe en bewaar het bestand.
-2. Kies in GitHub Desktop **Changes** en klik op het bestand. Je ziet welke
+1. Kies in GitHub Desktop **Changes** en klik op `writing-style.md`. Je ziet
+   het nieuwe bestand. Schrijf bij **Summary** bijvoorbeeld `Voeg schrijfstijl
+   toe` en klik op **Commit to …**. Nu is de kopie opgenomen in de geschiedenis.
+2. Voeg in `writing-style.md` een eigen zin toe en bewaar het bestand.
+3. Kies in GitHub Desktop **Changes** en klik op het bestand. Je ziet welke
    regels zijn toegevoegd en verwijderd. Controleer of de wijziging klopt en of
    alleen de gewenste bestanden aangevinkt zijn.
-3. Schrijf bij **Summary** een korte omschrijving, bijvoorbeeld
-   `Beschrijf de oefening`, en klik op **Commit to …**.
-4. Kijk in **History**: je ziet nu het nieuwe opgeslagen moment. Pas het bestand
+4. Schrijf bij **Summary** een korte omschrijving, bijvoorbeeld
+   `Voeg een zin toe`, en klik op **Commit to …**.
+5. Kijk in **History**: je ziet nu het nieuwe opgeslagen moment. Pas het bestand
    opnieuw aan en maak nog een commit om de geschiedenis uit te proberen.
 
 Doe hetzelfde nadat AI bestanden heeft aangepast: lees de wijzigingen en bekijk
@@ -58,7 +66,7 @@ heb je geen GitHub-account nodig.
 
 1. Open in VS Code via **File → Open Folder** de oefenmap die je hierboven hebt
    gemaakt.
-2. Pas `README.md` aan en bewaar het bestand. Kies in de zijbalk **Source
+2. Pas `writing-style.md` aan en bewaar het bestand. Kies in de zijbalk **Source
    Control** (het pictogram met vertakkingen).
 3. Klik onder **Changes** op het bestand om de wijzigingen te bekijken. Met het
    plusteken naast het bestand kies je het voor de volgende commit; dit heet
