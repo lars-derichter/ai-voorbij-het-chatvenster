@@ -41,12 +41,12 @@ boekvertaling toont hoe ver je een workflow kunt uitbouwen.
 
 # Zes principes
 
-1. Werk zo veel en zo lang mogelijk in tekst.
-2. Geef context.
-3. Weet wat kwaliteit voor jou betekent.
-4. Geef heldere instructies en stuur bij.
-5. Denk in workflows.
-6. Blijf experimenteren.
+1. Tekst, tekst, tekst
+2. Context is king
+3. Kwaliteit is mensenwerk
+4. Heldere instructies en itereer
+5. Denk in workflows
+6. Blijf experimenteren
 
 <!--
 Deze principes keren terug in de voorbeelden en op het einde van de workshop.
@@ -109,7 +109,7 @@ Vandaag gebruiken we **Work** in de ChatGPT-desktopapp.
 <!--
 Toon de app en hoe je een lokaal project opent en toegang tot een map geeft.
 Beschikbaarheid hangt af van het abonnement en de instellingen van de
-werkruimte. Codex is voor deze workshop geen vereiste.
+werkruimte. Codex is niet beschikbaar binnen ons huidige abonnement.
 -->
 
 ---
@@ -149,11 +149,13 @@ bestanden de agent mag gebruiken en waar hij mag schrijven.
 
 ---
 
-# 1. Werk zo veel mogelijk in tekst
+# 1. Tekst, tekst, tekst
 
+- Werk zo veel mogelijk in platte tekst
 - Je kunt tekst makkelijk lezen, aanpassen en vergelijken.
 - AI kan rechtstreeks met je bestanden werken.
-- Vanuit één bron kun je naar andere formaten exporteren.
+- Vanuit één bron kun je naar verschillende formaten exporteren.
+- Gebruik een goede tekst-editor zoals [VS Code](https://code.visualstudio.com/download)
 
 <!--
 Deel je eigen ervaring: zo veel en zo lang mogelijk in tekst werken maakt je
@@ -192,7 +194,9 @@ Een alinea met **nadruk**.
 - Een tweede punt
 ```
 
-Leesbaar als tekst én om te zetten naar andere formaten.
+- Leesbaar als tekst én om te zetten naar andere formaten. Het ‘native format’ van AI-tools.
+- [Markdown Guide](https://www.markdownguide.org/) beschrijft de syntax
+- [Pandoc](https://pandoc.org/) voor omzettingen
 
 <!--
 Toon het bestand en de weergave naast elkaar. Je hoeft Markdown niet volledig
