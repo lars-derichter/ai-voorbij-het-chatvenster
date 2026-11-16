@@ -25,6 +25,8 @@ terugkerende taken aan te pakken.
 De bestanden in deze repository vormen ook zelf een voorbeeld: bekijk de
 [projectafspraken](AGENTS.md), de [schrijfstijl](writing-style.md), de
 [presentatiebron](slides.md) en de [voorbeeldskill](.agents/skills/presentatie-ontwerpen/SKILL.md).
+In de [gesprekken over dit project](chats/README.md) lees je hoe Lars en de
+AI-assistent samen keuzes maakten en het materiaal ontwikkelden.
 
 ## Wat verkennen we?
 
