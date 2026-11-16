@@ -107,12 +107,11 @@ de voorvertoning helpt om Markdown te bekijken. Bewaar je eigen wijzigingen
 voordat AI aan hetzelfde bestand werkt, zodat je niet met twee versies tegelijk
 bezig bent. Controleer het volledige resultaat zelf.
 
-Wil je precies zien welke regels zijn veranderd en eerdere versies bewaren? Ga
-verder met de [startgids Git](startgids-git.md). Daar leer je onder meer hoe je
-wijzigingen in VS Code vergelijkt.
-
 ## Verder leren
 
 In de
 [introductie van VS Code](https://code.visualstudio.com/docs/getstarted/overview)
 vind je meer uitleg over de installatie en de onderdelen van het programma.
+
+Wil je afspraken en werkwijzen hergebruiken? Ga verder met de
+[gids over herbruikbare instructies, skills en agents](herbruikbare-instructies-skills-en-agents.md).

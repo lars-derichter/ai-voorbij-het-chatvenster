@@ -176,3 +176,5 @@ tonen de basisstappen met afbeeldingen. Wil je later samenwerken of
 verschillende versies naast elkaar ontwikkelen, lees dan over
 [branches](https://docs.github.com/en/get-started/using-github/github-flow) en
 [pull requests](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests).
+
+Bekijk ook het [overzicht van het workshopmateriaal](README.md).

@@ -93,3 +93,6 @@ vragen over doel en publiek en wacht op mijn akkoord voor je slides schrijft.
 Bekijk het voorgestelde plan, geef feedback en controleer het resultaat. Een
 projectinstructie of skill helpt richting geven, maar jij blijft
 verantwoordelijk voor de inhoud en beslist wat wordt gedeeld.
+
+Wil je wijzigingen volgen en eerdere versies bewaren? Ga verder met de
+[startgids Git](startgids-git.md).

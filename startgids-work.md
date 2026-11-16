@@ -53,5 +53,5 @@ Open `checklist.md` en controleer of de inhoud klopt, bruikbaar is en past bij
 je opdracht. Probeer minstens één punt uit. Vraag een verbetering als dat nodig
 is en bekijk de wijzigingen opnieuw. Jij beslist wat je overneemt en deelt.
 
-Wil je afspraken hergebruiken? Ga verder met de
-[gids over herbruikbare instructies, skills en agents](herbruikbare-instructies-skills-en-agents.md).
+Wil je de bestanden in je projectmap zelf bekijken en bewerken? Ga verder met de
+[startgids VS Code](startgids-vs-code.md).
