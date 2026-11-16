@@ -24,8 +24,6 @@ terugkerende taken aan te pakken.
   onder meer lesontwerp en evaluatie.
 - [Persoonlijke tools en AI projecten](tools.md): een overzicht van tools die ik
   veel gebruik en voorbeelden van projecten die ik samen met AI gemaakt heb.
-- De Markdown-startgids maken we tijdens de workshop. Na controle delen we hem
-  hier.
 
 De bestanden in deze repository vormen ook zelf een voorbeeld: bekijk de
 [projectafspraken](AGENTS.md), de [schrijfstijl](writing-style.md), de
