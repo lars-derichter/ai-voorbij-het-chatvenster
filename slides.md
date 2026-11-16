@@ -583,7 +583,9 @@ number: "04"
 eyebrow: Eye opener
 ---
 
-# Probeer ook je eigen opdracht
+# Test je evalaties
+
+---
 
 Laat je studentenopdrachten een keer maken door het beste model waar je toegang tot hebt.
 
@@ -602,7 +604,11 @@ beoordelen. Geef geen identificerende studentgegevens mee.
 layout: section
 color: navy
 number: "05"
-eyebrow: Conclusies
+eyebrow: Samenvatting
+---
+
+# Conclusies
+
 ---
 
 # De zes principes op een rij
