@@ -6,11 +6,11 @@ checklist voor een lesactiviteit. Je hebt geen kennis van programmeren nodig.
 
 ## Voor je begint
 
-Je hebt de ChatGPT-desktopapp nodig en toegang tot Work en lokale bestanden.
-Die toegang hangt af van je abonnement en de instellingen van je werkruimte.
-Zie je Work of de optie voor lokale bestanden niet, vraag dan aan je beheerder
-wat in jouw omgeving beschikbaar is. De aanwijzingen hieronder kunnen licht
-verschillen per versie van de app.
+Je hebt de ChatGPT-desktopapp nodig en toegang tot Work en lokale bestanden. Die
+toegang hangt af van je abonnement en de instellingen van je werkruimte. Zie je
+Work of de optie voor lokale bestanden niet, vraag dan aan je beheerder wat in
+jouw omgeving beschikbaar is. De aanwijzingen hieronder kunnen licht verschillen
+per versie van de app.
 
 Maak op je computer een nieuwe map, bijvoorbeeld `lesactiviteit`. Zet daarin
 alleen materiaal dat je voor de opdracht wilt gebruiken, zoals een korte
@@ -27,8 +27,8 @@ studentenwerk quoteren en blijf zelf verantwoordelijk. Lees ook het
 3. Controleer welke map en bestanden beschikbaar zijn voor het gesprek. Je kunt
    de map ook openen in een teksteditor, zoals VS Code, om mee te volgen.
 
-Als je deze opties niet vindt, raadpleeg dan de [uitleg over Work en lokale
-bestanden](https://help.openai.com/en/articles/20001275-chatgpt-work-and-codex).
+Als je deze opties niet vindt, raadpleeg dan de
+[uitleg over Work en lokale bestanden](https://help.openai.com/en/articles/20001275-chatgpt-work-and-codex).
 Lokale uitvoering betekent niet dat alle gegevens alleen op je computer blijven:
 berichten en taakcontext kunnen in de cloud worden opgeslagen.
 
@@ -53,5 +53,5 @@ Open `checklist.md` en controleer of de inhoud klopt, bruikbaar is en past bij
 je opdracht. Probeer minstens één punt uit. Vraag een verbetering als dat nodig
 is en bekijk de wijzigingen opnieuw. Jij beslist wat je overneemt en deelt.
 
-Wil je afspraken hergebruiken? Ga verder met de [gids over projectinstructies,
-skills en agents](herbruikbare-instructies-skills-en-agents.md).
+Wil je afspraken hergebruiken? Ga verder met de
+[gids over herbruikbare instructies, skills en agents](herbruikbare-instructies-skills-en-agents.md).
