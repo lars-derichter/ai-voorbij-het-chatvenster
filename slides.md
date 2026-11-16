@@ -404,7 +404,7 @@ Koppel dit aan een ervaring met het werken aan deze presentatie.
 ---
 layout: section
 color: navy
-number: "03"
+number: "02"
 eyebrow: Demonstratie
 ---
 
@@ -463,7 +463,7 @@ wordt; reserveer tijd voor een laatste controle en de publicatiestap.
 ---
 layout: section
 color: navy
-number: "04"
+number: "03"
 eyebrow: Een stap verder
 ---
 
@@ -553,7 +553,7 @@ workflow; het suggereert geen gelijktijdige verwerking van hoofdstukken.
 ---
 layout: section
 color: navy
-number: "05"
+number: "04"
 eyebrow: Eye opener
 ---
 
@@ -575,7 +575,7 @@ beoordelen. Geef geen identificerende studentgegevens mee.
 ---
 layout: section
 color: navy
-number: "06"
+number: "05"
 eyebrow: Conclusies
 ---
 
