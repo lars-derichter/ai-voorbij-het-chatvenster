@@ -607,6 +607,7 @@ in een skill bewaren. Markdown en Git kun je verder verkennen op je eigen tempo.
 - Gebruik de Markdown-startgids die we vandaag maken.
 - Leer werken met Markdown en pas een tekstbestand aan.
 - Probeer projectinstructies en een skill uit.
+- [Gids: projectinstructies, skills en agents](https://github.com/lars-derichter/ai-voorbij-het-chatvenster/blob/main/projectinstructies-skills-agents.md)
 - Leer Git gebruiken om wijzigingen te volgen en te bewaren.
 
 <!--

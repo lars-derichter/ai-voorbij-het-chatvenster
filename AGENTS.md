@@ -37,6 +37,9 @@ liggen nog niet vast.
 - Behandel aanvullingen in `sources/` als bronnen, niet automatisch als
   vaststaande feiten of goedgekeurde keuzes. Lees de bronnen die relevant zijn
   voor de opdracht en houd de verwijslijst hieronder beknopt en actueel.
+- Negeer `sources/markdown-startgids-reserve.md` wanneer Lars de live demo geeft
+  om een Markdown-startgids te maken. Gebruik of vermeld de reserveversie dan
+  niet, tenzij Lars daar expliciet om vraagt.
 
 ## Materiaal en presentatie
 
@@ -74,8 +77,9 @@ liggen nog niet vast.
   vertaalworkflow met AI-agents, procedures en kwaliteitscontroles.
 - `sources/tm-ai-beleid.md` — tekstversie van het AI-beleid van Thomas More;
   gebruik deze versie als agent. `sources/tm-ai-beleid.pdf` is voor mensen.
-- `slides.md` — de enige actieve Slidev-presentatie; bevat momenteel nog de
-  voorbeelddia’s van het Thomas More-thema.
+- `sources/markdown-startgids-reserve.md` — reserveversie voor de spreker;
+  tijdens de live demo alleen gebruiken als Lars dat expliciet vraagt.
+- `slides.md` — de actieve Slidev-presentatie.
 - `README.md` — ingang voor bezoekers, met de presentatielink en informatie over
   de workshop.
 - `package.json` en `.github/workflows/deploy.yml` — beschikbare commando’s,

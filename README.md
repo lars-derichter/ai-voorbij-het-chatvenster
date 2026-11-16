@@ -7,8 +7,24 @@ terugkerende taken aan te pakken.
 
 **[Bekijk de presentatie](https://lars-derichter.github.io/ai-voorbij-het-chatvenster/)**
 
-De presentatie wordt nog voorbereid. De link toont voorlopig de voorbeelddia’s
-van het thema.
+## Zelf aan de slag
+
+- [Startgids voor Work](startgids-work.md): werk aan een kleine taak met een
+  lokale map en controleer het resultaat.
+- [Projectinstructies, skills en agents](projectinstructies-skills-agents.md):
+  bewaar afspraken en hergebruik een werkwijze. De gids verwijst naar de
+  voorbeeldskill en de projectinstructies van deze workshop.
+- [Startgids Git](startgids-git.md): volg wijzigingen en bewaar versies van je
+  bestanden, lokaal en eventueel op GitHub.
+- [Skills voor onderwijsontwerp](skills/README.md): herbruikbare werkwijzen
+  voor onder meer lesontwerp en evaluatie.
+- [Persoonlijke tools](tools.md): een overzicht dat Lars nog aanvult.
+- De Markdown-startgids maken we tijdens de workshop. Na controle delen we hem
+  hier.
+
+De bestanden in deze repository vormen ook zelf een voorbeeld: bekijk de
+[projectafspraken](AGENTS.md), de [schrijfstijl](writing-style.md), de
+[presentatiebron](slides.md) en de [voorbeeldskill](.agents/skills/presentatie-ontwerpen/SKILL.md).
 
 ## Wat verkennen we?
 
