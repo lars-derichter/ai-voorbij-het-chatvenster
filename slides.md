@@ -33,8 +33,7 @@ kan helpen bij werk dat uit meerdere bestanden en stappen bestaat.
 <!--
 Eerst tonen we hoe de principes in dit presentatieproject terugkomen. Daarna
 maken we live een Markdown-startgids. Deelnemers hoeven niet mee te werken op
-een laptop. De vertaling naar het Engels is een tweede toepassing; de
-boekvertaling toont hoe ver je een workflow kunt uitbouwen.
+een laptop. De boekvertaling toont hoe ver je een workflow kunt uitbouwen.
 -->
 
 ---
@@ -463,21 +462,6 @@ wordt; reserveer tijd voor een laatste controle en de publicatiestap.
 
 ---
 
-# Nog een voorbeeld: vertalen
-
-**Opdracht:** vertaal een tekst naar het Engels.
-
-**Context:** doelgroep, gewenste toon en woordenlijst.
-
-**Controle:** betekenis, termen, cijfers en leesbaarheid.
-
-<!--
-Verbind dit met werk buiten het onderwijs: een handleiding of projecttekst voor
-internationale collega's. Een eenvoudige vertaling kan uitgroeien tot een
-herbruikbare skill. Controleer de vertaling ook zelf.
--->
-
----
 layout: section
 color: navy
 number: "04"
