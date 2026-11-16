@@ -501,7 +501,7 @@ eyebrow: Een stap verder
 
 # Samenwerken met agents
 
-Van één opdracht naar een team met afgebakende taken.
+Van één opdracht naar een team met afgebakende taken. Voor erg complexe of langlopende taken.
 
 ---
 
