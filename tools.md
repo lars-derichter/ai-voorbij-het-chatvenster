@@ -4,7 +4,7 @@
 
 ### Tekst editor
 
-Mijn favoriete tekst editor is
+Mijn favoriete tekst editor op dit moment is
 [Visual Studio Code](https://code.visualstudio.com/), met de
 [Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one)
 extensie geïnstalleerd. Mijn favoriete theme is
@@ -42,6 +42,11 @@ project te bewaren. Als je een project dan ook nog eens synchroniseert naar
 naar een vroegere versie. Zonder deze beveiliging zou ik een AI niet zomaar
 vertrouwen met mijn bestanden.
 
+### Notities
+
+[Obsidian](https://obsidian.md/) is een notitie app die volledig met markdown
+bestanden werkt. Je kan deze dus ook goed integreren met AI-systemen.
+
 ## Persoonlijke AI-projecten
 
 Voorbeelden van projecten die ik recent samen met AI maakte. Meestal vind je een
@@ -65,7 +70,7 @@ Voorbeelden van projecten die ik recent samen met AI maakte. Meestal vind je een
   complexe agent workflow voor de boekvertaling in meer detail beschrijft.
 
 En last but not least: [Coursewright.md](https://coursewright.md/): een systeem
-om cursusmateriaal in markdown te maken, te exporteren als website en te
+om cursusmateriaal in markdown te maken, te exporteren als website en/of te
 synchronseren met Canvas. Met ingebouwde mogelijkheden om te exporteren naar
 Word en PDF. Inclusief een heel aantal skills om op een didactisch onderbouwde
 manier samen met AI cursusmaterialen te ontwikkelen. Gebruiken op eigen risico,
