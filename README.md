@@ -11,21 +11,23 @@ terugkerende taken aan te pakken.
 
 - [Startgids voor Work](startgids-work.md): werk aan een kleine taak met een
   lokale map en controleer het resultaat.
-- [Projectinstructies, skills en agents](herbruikbare-instructies-skills-en-agents.md):
+- [Herbruikbare instructies, skills en agents](herbruikbare-instructies-skills-en-agents.md):
   bewaar afspraken en hergebruik een werkwijze. De gids verwijst naar de
   voorbeeldskill en de projectinstructies van deze workshop.
 - [Startgids Git](startgids-git.md): volg wijzigingen en bewaar versies van je
   bestanden, lokaal en eventueel op GitHub.
-- [Skills voor onderwijsontwerp](skills/README.md): herbruikbare werkwijzen
-  voor onder meer lesontwerp en evaluatie.
-- [Persoonlijke tools](tools.md): een overzicht dat Lars nog aanvult.
+- [Skills voor onderwijsontwerp](skills/README.md): herbruikbare werkwijzen voor
+  onder meer lesontwerp en evaluatie.
+- [Persoonlijke tools en AI projecten](tools.md): een overzicht van tools die ik
+  veel gebruik en voorbeelden van projecten die ik samen met AI gemaakt heb.
 - De Markdown-startgids maken we tijdens de workshop. Na controle delen we hem
   hier.
 
 De bestanden in deze repository vormen ook zelf een voorbeeld: bekijk de
 [projectafspraken](AGENTS.md), de [schrijfstijl](writing-style.md), de
-[presentatiebron](slides.md) en de [voorbeeldskill](.agents/skills/presentatie-ontwerpen/SKILL.md).
-In de [gesprekken over dit project](chats/README.md) lees je hoe Lars en de
+[presentatiebron](slides.md) en de
+[voorbeeldskill](.agents/skills/presentatie-ontwerpen/SKILL.md). In de
+[gesprekken over dit project](chats/README.md) lees je hoe Lars en de
 AI-assistent samen keuzes maakten en het materiaal ontwikkelden.
 
 ## Wat verkennen we?
@@ -38,8 +40,8 @@ schrijfstijl samenkomen.
   beoordelen tot plannen, workflows en experimenteren.
 - **Markdown en projectafspraken:** tekstbestanden gebruiken voor inhoud en
   afspraken, bijvoorbeeld in `AGENTS.md`.
-- **Een live demonstratie:** samen met AI een Markdown-startgids plannen,
-  maken en nakijken.
+- **Een live demonstratie:** samen met AI een Markdown-startgids plannen, maken
+  en nakijken.
 - **Herbruikbare werkwijzen en agents:** een aanpak bewaren als skill en
   bekijken hoe agents deeltaken kunnen uitvoeren.
 
