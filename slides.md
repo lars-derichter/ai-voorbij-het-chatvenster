@@ -165,6 +165,8 @@ ai-voorbij-het-chatvenster/
 └── AGENTS.md          ← afspraken voor het project
 ```
 
+Naar bestanden of andere chats verwijzen met `@`
+
 <!--
 Open de echte map in Work en eventueel in VS Code. Deze presentatie is samen
 met AI gemaakt en door Lars bijgestuurd. Laat zien dat de bestanden die het
@@ -179,6 +181,7 @@ bestanden de agent mag gebruiken en waar hij mag schrijven.
 - Werk zo veel mogelijk in platte tekst
 - Je kunt tekst makkelijk lezen, aanpassen en vergelijken.
 - AI kan rechtstreeks met je bestanden werken.
+- Minder tokens >> minder energie (en goedkoper)
 - Vanuit één bron kun je naar verschillende formaten exporteren.
 - Gebruik een goede tekst-editor zoals [VS Code](https://code.visualstudio.com/download)
 
@@ -217,9 +220,11 @@ Een alinea met **nadruk**.
 
 - Een eerste punt
 - Een tweede punt
+
+[Een link](https://example.com/)
 ```
 
-- Leesbaar als tekst én om te zetten naar andere formaten. Het ‘native format’ van AI-tools.
+- Leesbaar als tekst én om te zetten naar andere formaten. Het ‘native’ formaat van AI-tools.
 - [Markdown Guide](https://www.markdownguide.org/) beschrijft de syntax
 - [Pandoc](https://pandoc.org/) voor omzettingen
 
@@ -316,11 +321,11 @@ Een agent kan helpen controleren, maar neemt je oordeel niet over.
 
 # 4. Geef heldere instructies, plan en itereer
 
-Zeg wat je wilt bereiken, voor wie en met welke randvoorwaarden.
+- Zeg wat je wilt bereiken, voor wie en met welke randvoorwaarden.
+- Je prompt hoeft niet perfect te zijn: stel vragen en verfijn samen
+- Je eerste versie hoeft niet definitief te zijn.
 
-Je prompt hoeft niet perfect te zijn: stel vragen en verfijn samen.
-
-Je eerste versie hoeft niet definitief te zijn.
+Leraren en docenten zijn hierin getraind!
 
 <!--
 Vertel hoe Lars de eerste versie van de slides liet uitbreiden en vervolgens de
@@ -354,7 +359,7 @@ Maak van een aanpak die werkt een herbruikbare skill.
 
 ---
 
-# Een skill is een herbruikbare werkwijze
+# Een skill is als een herbruikbaar stappenplan
 
 Een map met instructies en eventueel voorbeelden of hulpmiddelen.
 
@@ -374,11 +379,12 @@ expliciete goedkeuring van de outline voordat de presentatie wordt geschreven.
 
 ---
 
-# Skills in ons project
+# Skills in een project
 
 - Bewaar een skill in `.agents/skills` in je projectmap.
-- In onze geteste omgeving wordt die daar gevonden.
+- In onze omgeving wordt die daar gevonden.
 - Centrale skills en plugins zijn in onze installatie niet beschikbaar.
+- Oproepen met `/` of benoemen (er is een vorm van autodiscovery)
 
 <!--
 Toon de skill presentatie-ontwerpen in deze projectmap. Dit beschrijft de
