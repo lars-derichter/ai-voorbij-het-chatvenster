@@ -66,6 +66,12 @@ liggen nog niet vast.
   inschrijving konden lezen.
 - `sources/workflow-ontwikkeling-cursus-pf-coursewright.md` — ruwe chronologie
   en mogelijke voorbeelden uit de ontwikkeling van de cursus en Coursewright.
+- `sources/outline.md` — voorlopige ideeën voor opbouw, principes en mogelijke
+  onderwerpen van de workshop.
+- `sources/being-good-at-ai.md` — persoonlijke notities over vaardigheden en
+  werkwijzen die helpen bij het werken met generatieve AI.
+- `sources/blogpost-agentworkflow.md` — praktijkvoorbeeld van een
+  vertaalworkflow met AI-agents, procedures en kwaliteitscontroles.
 - `sources/tm-ai-beleid.md` — tekstversie van het AI-beleid van Thomas More;
   gebruik deze versie als agent. `sources/tm-ai-beleid.pdf` is voor mensen.
 - `slides.md` — de enige actieve Slidev-presentatie; bevat momenteel nog de
