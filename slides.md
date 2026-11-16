@@ -15,6 +15,32 @@ hideInToc: true
 
 Van losse gesprekken naar samenwerken aan bestanden
 
+---
+layout: two-cols-tm
+---
+
+# Wie ben ik?
+
+::left::
+
+<v-clicks>
+
+Docent programmeren
+
+maar Germanist
+
+en student Onderwijswetenschappen.
+
+lars.derichter@thomasmore.be
+
+Presentatie en materiaal: https://github.com/lars-derichter/ai-voorbij-het-chatvenster
+
+</v-clicks>
+
+::right::
+
+![Avatar van Lars De Richter als pop](/profile-pic.jpeg){.w-64 .mx-auto .rounded-lg}
+
 <!--
 Stel jezelf voor. De deelnemers kennen chatbots al. Vandaag kijken we hoe AI
 kan helpen bij werk dat uit meerdere bestanden en stappen bestaat.
