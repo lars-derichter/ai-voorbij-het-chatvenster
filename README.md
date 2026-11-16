@@ -11,6 +11,10 @@ terugkerende taken aan te pakken.
 
 - [Startgids voor Work](startgids-work.md): werk aan een kleine taak met een
   lokale map en controleer het resultaat.
+- [Startgids VS Code](startgids-vs-code.md): open een map en bewerk en bekijk
+  Markdown-bestanden.
+- [Startgids Markdown](<>): deze maakten we tijdens de workshop. Indien niet,
+  kan je de [fallback versie](sources/markdown-startgids-reserve.md) gebruiken.
 - [Herbruikbare instructies, skills en agents](herbruikbare-instructies-skills-en-agents.md):
   bewaar afspraken en hergebruik een werkwijze. De gids verwijst naar de
   voorbeeldskill en de projectinstructies van deze workshop.
