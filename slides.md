@@ -43,7 +43,7 @@ een laptop. De boekvertaling toont hoe ver je een workflow kunt uitbouwen.
 1. Tekst, tekst, tekst
 2. Context is king
 3. Kwaliteit is mensenwerk
-4. Geef heldere instructies, plan en itereer
+4. Heldere instructies, plan en itereer
 5. Denk in workflows
 6. Blijf experimenteren
 
@@ -466,6 +466,7 @@ layout: section
 color: navy
 number: "04"
 eyebrow: Een stap verder
+
 ---
 
 # Samenwerken met agents
@@ -553,13 +554,20 @@ workflow; het suggereert geen gelijktijdige verwerking van hoofdstukken.
 
 ---
 
+layout: section
+color: navy
+number: "05"
+eyebrow: Eye opener
+
+---
+
 # Probeer ook je eigen opdracht
 
-Geef je studentenopdracht aan het beste model dat je kunt gebruiken.
-
-**Mijn stelling:** een op zichzelf staand essay is geen valide evaluatie meer.
+Laat je studentenopdrachten een keer maken door het beste model waar je toegang tot hebt.
 
 Wat betekent het resultaat voor wat je wilt beoordelen?
+
+**Mijn overtuiging:** een op zichzelf staand essay is geen valide evaluatie meer.
 
 <!--
 Een bewust prikkelende stelling: een op zichzelf staand essay is geen valide
@@ -570,7 +578,14 @@ beoordelen. Geef geen identificerende studentgegevens mee.
 
 ---
 
-# De zes principes, nog eens
+layout: section
+color: navy
+number: "06"
+eyebrow: Conclusies
+
+---
+
+# De zes principes op een rij
 
 1. Werk zo veel en zo lang mogelijk in tekst.
 2. Geef context.
@@ -601,13 +616,13 @@ in een skill bewaren. Markdown en Git kun je verder verkennen op je eigen tempo.
 
 ---
 
-# Verder aan de slag
+# Verder gaan
 
 - Verken de repository en de bestanden van deze presentatie.
 - Gebruik de Markdown-startgids die we vandaag maken.
 - Leer werken met Markdown en pas een tekstbestand aan.
 - Probeer projectinstructies en een skill uit.
-- [Gids: projectinstructies, skills en agents](https://github.com/lars-derichter/ai-voorbij-het-chatvenster/blob/main/herbruikbare-instructies-skills-en-agents.md)
+- [Gids: Herbruikbare instructies, skills en agents](https://github.com/lars-derichter/ai-voorbij-het-chatvenster/blob/main/herbruikbare-instructies-skills-en-agents.md)
 - Leer Git gebruiken om wijzigingen te volgen en te bewaren.
 
 <!--
@@ -639,4 +654,12 @@ hideInToc: true
 
 # Bedankt!
 
-Wat wil jij eens proberen?
+Wat ga jij proberen?
+
+---
+
+# Vragen
+
+- Spreek me aan
+- Mail: lars.derichter@thomasmore.be
+- Vind me op teams en/of LinkedIn
