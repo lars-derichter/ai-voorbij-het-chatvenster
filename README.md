@@ -9,7 +9,7 @@ terugkerende taken aan te pakken.
 
 ## Zelf aan de slag
 
-- [Startgids voor Work](startgids-work.md): werk aan een kleine taak met een
+- [Startgids ChatGPT Work](startgids-work.md): werk aan een kleine taak met een
   lokale map en controleer het resultaat.
 - [Startgids VS Code](startgids-vs-code.md): open een map en bewerk en bekijk
   Markdown-bestanden.
